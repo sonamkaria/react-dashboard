@@ -1,3 +1,82 @@
 body{
-  background-color: blue;
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, Verdana;
+  text-align: center;
+  display: flex;
+}
+
+.App{
+  display:inline-flex;
+  background-color:bisque;
+
+}
+
+.app1{
+  display: inline-flex;
+
+}
+
+
+.Nav {
+  display: inline-block;
+  background-color:antiquewhite;
+  font-size: small;  
+  padding-right: 100px;
+
+}
+
+.elements{
+  display: grid;
+  background-color: gray;
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  margin: 50px;
+  
+  grid-template-areas:
+    "one two three"
+    "one two three"
+    "four four four"
+    "four four four";
+}
+.Reviews{
+ margin: 15px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  grid-area: one;
+}
+.Ratings{
+  margin: 15px;
+  background-color: black;
+  color: white;
+  grid-area: two;
+  text-align: center;
+}
+
+.Sentiment{
+  margin: 15px;
+  background-color: black;
+  color: white;
+  grid-area: three;
+  text-align: center;
+}
+.WebsiteVisitors{
+  margin: 15px;
+  background-color: black;
+  color: white;
+  grid-area: four;
+  text-align: center;
+}
+
+img{
+
+	width: 150px;
+  height: 150px;
+	margin-top: 5px;
+  padding-left: 25%;
+  border-radius: 50px;
+
 }
